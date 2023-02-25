@@ -1,14 +1,29 @@
 
-// Components
-import ProjectCard from "../Pages/ProjectCard";
+import { useState, useEffect } from "react";
 
-// Data
-import { allProjects } from "../data";
+// Components
+import ProjectCard from "../Components/ProjectCard/ProjectCard/";
+
 
 function HomePage() {
+
+    //State
+    const[projectList,setProjectList] = useState([]);
+
+    useEffect(()=> {
+        fetch(`${import.meta.env.VITE_API_URL}projects`)
+            .then((results) => {
+                return results.json();
+            })
+            .then((data) => {
+                setProjectList(data);
+            });
+
+    },[]);
+
   return (
     <div id="project-list">
-      {allProjects.map((project, key) => {
+      {projectList.map((project, key) => {
         return <ProjectCard key={key} projectData={project} />;
       })}
     </div>
