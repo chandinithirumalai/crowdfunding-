@@ -6,7 +6,7 @@ import LoginPage from "./Pages/LoginPage";
 import ProjectPage from "./Pages/ProjectPage";
 
 // Components
-import Nav from "./Components/Nav/Nav";
+import Nav from "./Components/Nav/nav";
 import "./App.css"
 const HeaderLayout = () => (
   <div>
