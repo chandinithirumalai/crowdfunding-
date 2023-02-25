@@ -1,6 +1,6 @@
 //components 
 //login form is inbuilt 
-import LoginForm from "../components/LoginForm/LoginForm";
+import LoginForm from "../Components/LoginForm/LoginForm";
 function LoginPage() {
     return <LoginForm/>;
 }
