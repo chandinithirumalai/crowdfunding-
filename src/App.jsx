@@ -1,12 +1,11 @@
-
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
 // Pages
-import HomePage from "./Pages/HomePage";
-import LoginPage from "./Pages/LoginPage";
-import ProjectPage from "./Pages/ProjectPage";
+import HomePage from "./pages/HomePage";
+import LoginPage from "./pages/LoginPage";
+import ProjectPage from "./pages/ProjectPage";
 // Components
-import Nav from "./Components/Nav/Nav";
-import Footer from "./Components/Footer/Footer";
+import Nav from "./components/Nav/Nav";
+// import Footer from "./components/Footer/Footer";
 // CSS
 import "./App.css";
 import { useState } from "react";
@@ -16,7 +15,7 @@ const Layout = () => {
     <>
       <Nav loggedIn={loggedIn} setLoggedIn={setLoggedIn} />
       <Outlet context={[loggedIn, setLoggedIn]} />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
