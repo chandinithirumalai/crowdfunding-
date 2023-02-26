@@ -1,7 +1,7 @@
 #project-list {
   display: grid;
-  grid-template-columns: 30% 60% 60%;
-  column-gap: 10px;row-gap: 10px;
+  grid-template-columns: 30% 30% 30%;
+  column-gap: 20px;row-gap: 20px;
 };
 
 
@@ -34,7 +34,7 @@
 } */
  
 body {
-  background-color: rgb(92, 153, 170);
+  background-color: rgb(231, 238, 240);
   color: #ffffff;
   font-family: "Gill Sans", sans-serif;
 }
