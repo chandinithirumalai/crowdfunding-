@@ -6,7 +6,7 @@ import LoginPage from "./Pages/LoginPage";
 import ProjectPage from "./Pages/ProjectPage";
 // Components
 import Nav from "./Components/Nav/Nav";
-import Footer from "./Components/Footer/Footer";
+// import Footer from "./Components/Footer/Footer";
 // CSS
 import "./App.css";
 import { useState } from "react";
