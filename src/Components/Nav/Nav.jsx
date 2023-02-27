@@ -28,7 +28,7 @@ function Nav(props) {
                 {!loggedIn && <Link to="/login" className="btn">Login In</Link>}
                 <div id="nav-controls">
                     <Link to="/" >Home</Link>
-                    <Link to="/project">Project</Link>
+                    <Link to="/view-all-projects">Project</Link>
                 </div>
             </div>
             {loggedIn && <button onClick={handleClick}>Sign Out</button>}

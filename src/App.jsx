@@ -3,12 +3,14 @@ import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
 import HomePage from "./Pages/HomePage";
 import LoginPage from "./Pages/LoginPage";
 import ProjectPage from "./Pages/ProjectPage";
+import ViewAllProjectsPage from "./Pages/ViewAllProjectsPage";
 // Components
 import Nav from "./Components/Nav/Nav";
 // import Footer from "./components/Footer/Footer";
 // CSS
 import "./App.css";
 import { useState } from "react";
+
 const Layout = () => {
   const [loggedIn, setLoggedIn] = useState(window.localStorage.getItem("token") != null)
   return (
@@ -26,6 +28,7 @@ const router = createBrowserRouter([
       { path: "/", element: <HomePage /> },
       { path: "/login", element: <LoginPage /> },
       { path: "/project/:id", element: <ProjectPage /> },
+      { path: "/view-all-projects", element: <ViewAllProjectsPage /> },
     ],
   },
 ]);
