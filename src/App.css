@@ -6,18 +6,18 @@
 
 
 /* Changes to css start from here 26/2/22 */
-#imgid{
+/* #imgid{
   height: 300px
 
-}
+} */
 
-#linkedIn-logo{
+/* #linkedIn-logo{
   height: 50px;
   padding-right: 0px;
   padding-left: 600px;
   padding-bottom: 25px;
 
-}
+} */
 
 /* #nothingyet{
   Height: 500px
@@ -119,11 +119,11 @@ ul{
 }
   
 
-footer{
-  /* padding-left: 60px; */
+/* footer{
+  padding-left: 60px;
   justify-content: center;
-  /* background-color: aqua; */
-}
+  background-color: aqua;
+} */
  
 p{
   padding-left: 70px;
