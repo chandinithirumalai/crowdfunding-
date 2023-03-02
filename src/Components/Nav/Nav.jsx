@@ -22,13 +22,16 @@ function Nav(props) {
     return (
         <nav>
             <div id="logo">
-                <img src="src/images/Communitarian.png" alt="communitarian-logo" />
+                <img src="src/Images/FundDRIVER.jpg" alt="FundDriver-logo" />
             </div>
-            <div id="nav-right">
-                {!loggedIn && <Link to="/login" className="btn">Login In</Link>}
+            
+            
                 <div id="nav-controls">
                     <Link to="/" >Home</Link>
                     <Link to="/view-all-projects">Project</Link>
+                    <div id="nav-right">
+           
+           {!loggedIn && <Link to="/login" className="btn">Login In</Link>}
                 </div>
             </div>
             {loggedIn && <button onClick={handleClick}>Sign Out</button>}

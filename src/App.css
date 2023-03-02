@@ -1,7 +1,7 @@
 #project-list {
   display: grid;
   grid-template-columns: 30% 30% 30%;
-  column-gap: 20px;row-gap: 20px;
+  column-gap: 50px;row-gap: 50px;
 };
 
 
@@ -34,13 +34,13 @@
 } */
  
 body {
-  background-color: rgb(231, 238, 240);
-  color: #ffffff;
+  background-color: rgb(227, 237, 239);
+  color: #0f0d0d;
   font-family: "Gill Sans", sans-serif;
 }
 
 header {
-  border-bottom: 5px solid #FDDC5C;
+  border-bottom: 5px solid #ebe5cd;
   text-align: center;
 }
 
