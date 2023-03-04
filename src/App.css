@@ -25,22 +25,19 @@
 } */
 
 
-#instagram-logo{
-  height: 50px;
-  padding-bottom:25px ;
-}
+
 /* img{
   padding-left: 70px;
 } */
  
 body {
-  background-color: rgb(227, 237, 239);
+  background-color: rgb(179, 189, 214);
   color: #0f0d0d;
   font-family: "Gill Sans", sans-serif;
 }
 
 header {
-  border-bottom: 5px solid #ebe5cd;
+  border-bottom: 5px solid #7d744f;
   text-align: center;
 }
 
