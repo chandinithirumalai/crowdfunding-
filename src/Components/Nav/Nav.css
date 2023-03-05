@@ -2,15 +2,14 @@
 
   nav{
   
-    width: 50%;
+    
     text-align: center;
-    margin-left: 5rem ;
-    margin-right: 5rem;
-    display: inline-block;
-    /* top:0; 
-    right: 0px; */
-    /* align-items: left;
-    justify-content: left; */
+    margin-left: 2em ;
+    margin-right: 0em;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
      
   }
 
@@ -27,6 +26,7 @@
   #btn-group{
     display:flex;
     gap: 2rem;
+    /* right: 58px; */
     
     
 
@@ -38,7 +38,7 @@
     top:40; 
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-    right: 56px;
+    /* right: 56px; */
   } 
 
   nav a {
@@ -46,7 +46,7 @@
     width: 100px;
     background-color: #90a4d2;
     
-    float: left;
+    float: right;
 
     display: flex;
     flex: 1;
