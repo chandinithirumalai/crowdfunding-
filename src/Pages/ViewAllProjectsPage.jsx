@@ -18,7 +18,13 @@ function ViewAllProjectsPage() {
     },[]);
 
     return (
-        <h1> Test</h1>
+        <h1> Projects List</h1>
+    
+    );
+
+    return (
+        <h2> gfjgh</h2>
+    
     );
 
 };  
