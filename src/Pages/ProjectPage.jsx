@@ -1,5 +1,6 @@
 import {useState, useEffect} from "react";
 import { useParams } from "react-router-dom";
+// import PledgeForm from "../components/PledgeForm/PledgeForm";
 
 
 
@@ -40,6 +41,7 @@ function ProjectPage() {
           );
         })}
       </ul>
+    
     </div>
   );
 }

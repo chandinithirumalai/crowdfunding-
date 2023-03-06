@@ -46,6 +46,7 @@
     width: 100px;
     background-color: #90a4d2;
     
+    
     float: right;
 
     display: flex;
@@ -72,6 +73,8 @@
     background-color: rgb(122, 128, 212);
     font-weight: bold;
   } 
+
+  
 
   
   

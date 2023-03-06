@@ -23,6 +23,10 @@ function Nav(props) {
         <nav>
             <div id="navbar">
                 <img src="https://i.postimg.cc/pXdHDBTb/Fund-DRIVER-3.jpg" alt="FundDriver-logo"/>
+                <div id="text">
+                    <h1>FundDRIVER</h1>
+
+                </div>
                 <div id="btn-group">
                     <Link to="/" >Home</Link>
                     <Link to="/view-all-projects">Project</Link>

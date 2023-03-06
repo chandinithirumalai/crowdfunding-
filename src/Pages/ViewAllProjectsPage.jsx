@@ -22,10 +22,7 @@ function ViewAllProjectsPage() {
     
     );
 
-    return (
-        <h2> gfjgh</h2>
     
-    );
 
 };  
 
